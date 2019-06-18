@@ -15,15 +15,15 @@ public class LockerProblem {
 //            }
 //        }
         for (int n = 2; n < lockers.length; n++) {
-            for (int i = n; i < lockers.length; i+=n) {
-                lockers[i] = !lockers[i];
-            }
+            for (int i = n; i < lockers.length; i+=(n+1)) {
+                lockers[i] = !lockers[i];}
 
 //                int p = 0;
 //                while (p < n) {
 //                    p++;
 //                    i++;
 //                }
+//
 
 
         //print locker status
